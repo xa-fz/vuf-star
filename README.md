@@ -1,4 +1,4 @@
-# vuf-star
+# vuf-star [![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/vuf-star)
 
 > A Vue.js component
 
