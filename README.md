@@ -1,30 +1,20 @@
 # vue-star
 
-> A Vue.js project
+> A Vue.js component
+
 
 ## Build Setup
 
 ``` bash
-# install dependencies
-npm install
+# 安装 npm install --save-dev vuf-star@1.0.0
 
-# serve with hot reload at localhost:8080
-npm run dev
+使用:
+<vuf-star :size="36" :score="3.5">
+</vuf-star>
 
-# build for production with minification
-npm run build
+size---是星星图片的大小，分为24/36/48
+score----评分
 
-# build for production and view the bundle analyzer report
-npm run build --report
+分数算法机制:分数的2倍向下取整后除以2 例：4.2-->4.2*2=8.4-->向下取整8-->除以2等于4分 
 
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+算法可作调整

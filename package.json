@@ -1,9 +1,9 @@
 {
-  "name": "vue-star",
+  "name": "vuf-star",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "A Vue.js component",
   "author": "fz <553866469@qq.com>",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
