@@ -1,4 +1,4 @@
-# vue-star
+# vuf-star
 
 > A Vue.js component
 
