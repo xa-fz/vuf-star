@@ -1,20 +1,28 @@
-# vuf-star [![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/vuf-star)
-
-> A Vue.js component
+# vuf-star 
+[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/vuf-star)
+[![Codeship](https://img.shields.io/badge/csdn-blog-red.svg)](http://blog.csdn.net/q553866469/article/details/78909601)
+> a component in vueJs to show star for shop
 
 
 ## Build Setup
 
 ``` bash
-# °²×° npm install --save-dev vuf-star@1.0.0
+ # npm install --save-dev vuf-star@1.0.0
 
-Ê¹ÓÃ:
+API:
 <vuf-star :size="36" :score="3.5">
 </vuf-star>
 
-size---ÊÇĞÇĞÇÍ¼Æ¬µÄ´óĞ¡£¬·ÖÎª24/36/48
-score----ÆÀ·Ö
-
-·ÖÊıËã·¨»úÖÆ:·ÖÊıµÄ2±¶ÏòÏÂÈ¡Õûºó³ıÒÔ2 Àı£º4.2-->4.2*2=8.4-->ÏòÏÂÈ¡Õû8-->³ıÒÔ2µÈÓÚ4·Ö 
-
-Ëã·¨¿É×÷µ÷Õû
+export default () {
+  data(){
+    return: {
+      size: 36,
+      score: 3,5
+    }
+  }
+}
+å‚æ•°ï¼š
+     å›¾ç‰‡å¤§å°  åˆ†æ•°
+     24/26/48  1~5
+     
+è¯„åˆ†æœºåˆ¶ï¼šå¤§äº0.5åˆ†ç®—1åˆ†ï¼Œå°äº0.5åˆ†ä¸ç®—åˆ†
