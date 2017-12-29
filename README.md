@@ -7,7 +7,7 @@
 ## Build Setup
 
 ``` bash
- # npm install --save-dev vuf-star@1.0.2API:
+ # npm install --save-dev vuf-star@1.0.3API:
 <vuf-star :size="36" :score="3.5">
 </vuf-star>
 
