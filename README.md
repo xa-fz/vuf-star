@@ -7,16 +7,16 @@
 ## Build Setup
 
 ``` bash
- # npm install --save-dev vuf-star@1.0.3
+ # npm install --save-dev vuf-star@1.0.4
 API:
-<vuf-star :size="36" :score="3.5">
+<vuf-star :size="this.starSize" :score="this.starScore">
 </vuf-star>
 
 export default () {
   data(){
     return: {
-      size: 36,
-      score: 3.5
+      starSize: 36,
+      starScore: 3.5
     }
   }
 }
