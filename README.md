@@ -20,8 +20,8 @@ export default () {
     }
   }
 }
-参数：
-     图片大小  分数
-     24/26/48  1~5
+parameter：
+     imagesSize  score
+     24/26/48    1~5
      
-评分机制：大于0.5分算1分，小于0.5分不算分
+mechanism：> 0.5score is one score，< 0.5score is none
