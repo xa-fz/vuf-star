@@ -22,6 +22,6 @@ export default () {
 }
 parameter：
      imagesSize  score
-     24/26/48    1~5
+     24/36/48    1~5
      
 mechanism：> 0.5score is one score，< 0.5score is none
